@@ -831,7 +831,7 @@
         <recordTriggerType>Update</recordTriggerType>
         <triggerType>RecordAfterSave</triggerType>
     </start>
-    <status>Draft</status>
+    <status>Active</status>
     <textTemplates>
         <description>Pharos Flow Template for Log After: Start, Before: Get all accounts</description>
         <name>h_08cf4bc8ff6da7e709c9fe161b6943a6_Pharos_Template</name>
