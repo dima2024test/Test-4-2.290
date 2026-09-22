@@ -32,7 +32,8 @@ global class ErrorHandlingBatch implements Database.Batchable<Integer> {
                 Triton.log(Triton.t
                     .area(TritonTypes.Area.Accounts)
                     .exception(e)
-                    .level(TritonTypes.Level.ERROR));
+                    .level(TritonTypes.Level.ERROR)
+                    .traceable(true));
             }
             Triton.flush();
         }
